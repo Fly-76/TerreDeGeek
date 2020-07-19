@@ -87,6 +87,37 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+  background-color: #001741;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  padding: 2px;
+  } 
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+nav ul li a {   /* Sélection multible, les a dans les li dans les nav */
+  text-decoration: none ;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.société {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
