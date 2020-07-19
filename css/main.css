@@ -87,6 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* main theme White over Blue */
 * {
   background-color: #001741;
   color: #ffffff;
@@ -100,12 +101,11 @@ ul {
   justify-content: space-around;
 }
 nav ul li a {   /* Sélection multible, les a dans les li dans les nav */
-  text-decoration: none ;
-}
-
-article {
-  display: flex;
-  justify-content: space-around;
+  text-decoration: none;
+  border: #000000;
+  padding:6px ;
+	border-radius:3px;
+	box-shadow:2px 2px 5px #000000;
 }
 
 footer {
@@ -113,9 +113,21 @@ footer {
   justify-content: center;
 }
 
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.product {
+  display: flex;
+}
+
+
 .société {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 /* ==========================================================================
