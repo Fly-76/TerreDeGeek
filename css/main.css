@@ -108,6 +108,15 @@ nav ul li a {   /* Sélection multible, les a dans les li dans les nav */
 	box-shadow:2px 2px 5px #000000;
 }
 
+h1,h5 {
+  font-family: 'Audiowide', cursive;
+}
+
+p {
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Courgette', cursive;
+}
+
 footer {
   display: flex;
   justify-content: center;
