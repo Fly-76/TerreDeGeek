@@ -21,61 +21,79 @@
 <body>
 
   <!-- Display a menu with 4 links to the html pages -->
-  <nav>
+  <nav class="bluesheme">
     <ul>
       <li><a href="index.html">ACCUEIL</a></li>
       <li><a href="service.html">PRESTATIONS</a></li>
       <li><a href="about.html">A-PROPOS</a></li>
       <li><a href="contact.html">CONTACT</a></li>
     </ul>
+    <hr>
   </nav>
 
-  <!-- Display the society's name -->  
-  <header>
-    <div class="société">
+  <!-- Display the society's name   -->
+  <header class="bluesheme société">
+    <div id="logo">  
       <img src="img/geek.png" alt="logo de la société Terre De Geek">
-      <h1>TERRE DE GEEK</h1>
+    </div>
+    <div class="fullCenter">
+      <h1>TERRE</h1>
+      <h1>DE</h1> 
+      <h1>GEEK</h1>
     </div>
   </header>
 
    <!-- Display the 3 products -->  
    <main>
-    <article>
-      <div class="product">
-        <a href="product.html"><img src="img/picture1.jpg" alt="photo mini drone Potensic"></a>
-        <div>
-          <h2>Le mini drone de Potensic</h2>
-          <h3>49.99 €</h3>  
+    <section>
+      <h4>NOUVEAUTE</h4>
+      <article>
+        <div class="product">
+          <div class="img">  
+            <a href="product.html"><img class="imgproduct" src="img/picture1.jpg" alt="photo mini drone Potensic"></a>
+          </div>
+          <div class="bluesheme prodprice">
+            <h2>Le mini drone de Potensic</h2>
+            <h3>49.99 €</h3>  
+          </div>
         </div>
-      </div>
-      <p>Incarnation même du bon rapport qualité/prix, ce mini drone présente des fonctionnalités basiques mais efficaces. Facile à monter et à piloter, il convient parfaitement aux débutants, aux amateurs et même aux enfants.</p>
-    </article>
+        <p>Incarnation même du bon rapport qualité/prix, ce mini drone présente des fonctionnalités basiques mais efficaces. Facile à monter et à piloter, il convient parfaitement aux débutants, aux amateurs et même aux enfants.</p>
+        <hr>
+      </article>
 
-    <article>
-      <div class="product">
-        <a href="product.html"><img src="img/picture2.jpg" alt="photo webcam HD C270 de Logitech"></a>
-        <div>
-          <h2>Webcam HD C270 de Logitech</h2>
-          <h3>29.93 €</h3>
-        </div>        
-      </div>
-      <p>Si la webcam de votre PC est peu flatteuse, ce modèle à moindre prix pourrait bien vous séduire. Belle solution, système audio plutôt bien travaillé et champ de vision large, elle a de quoi vous étonner.</p>
-    </article>
-
-    <article>
-      <div class="product">
-        <a href="product.html"><img src="img/picture3.jpg" alt="photo bracelet Mi Band 4 de Xiaomi"></a>
-        <div>
-          <h2>Bracelet Mi Band 4 de Xiaomi</h2>
-          <h3>27.90 €</h3>
+      <article>
+        <div class="product">
+          <div class="img">  
+            <a href="product.html"><img class="imgproduct" src="img/picture2.jpg" alt="photo webcam HD C270 de Logitech"></a>
+          </div>
+          <div class="bluesheme prodprice">
+            <h2>Webcam HD C270 de Logitech</h2>
+            <h3>29.93 €</h3>
+          </div>        
         </div>
-      </div>
-      <p>Avec une autonomie de pas moins de 20 jours, cet appareil vous renseigne sur l’activité et l’analyse de votre sommeil, sur vos appels, SMS et même sur vos objectifs d’activité. What else ?</p>
-    </article>
+        <p>Si la webcam de votre PC est peu flatteuse, ce modèle à moindre prix pourrait bien vous séduire. Belle solution, système audio plutôt bien travaillé et champ de vision large, elle a de quoi vous étonner.</p>
+        <hr>
+      </article>
+
+      <article>
+        <div class="product">
+          <div class="img">  
+            <a href="product.html"><img class="imgproduct" src="img/picture3.jpg" alt="photo bracelet Mi Band 4 de Xiaomi"></a>
+          </div>
+          <div class="bluesheme prodprice">
+            <h2>Bracelet Mi Band 4 de Xiaomi</h2>
+            <h3>27.90 €</h3>
+          </div>
+        </div>
+        <p>Avec une autonomie de pas moins de 20 jours, cet appareil vous renseigne sur l’activité et l’analyse de votre sommeil, sur vos appels, SMS et même sur vos objectifs d’activité. What else ?</p>
+        <hr>
+      </article>
+
+    </section> 
   </main>
 
    <!-- Display legal mentions -->  
-  <footer>
+  <footer class="bluesheme">
     <h5>© Copyright 2020 Terre2Geek.com<br>
       Tous droits réservés. </h5>
   </footer>

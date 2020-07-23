@@ -87,56 +87,111 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* main theme White over Blue */
 * {
-  background-color: #001741;
-  color: #ffffff;
   font-family: 'Arial', sans-serif;
-  padding: 2px;
-  } 
+  margin: 0;
+  padding: 0;
+} 
 
 ul {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
+  align-items: center;
 }
-nav ul li a {   /* Sélection multible, les a dans les li dans les nav */
+
+nav {
+  background-color: #001741;
+  color: #ffffff;
+  height: 50px;
+  align-items: center;
+}
+
+nav ul li a {
   text-decoration: none;
+  color: #ffffff;
   border: #000000;
   padding:6px ;
-	border-radius:3px;
-	box-shadow:2px 2px 5px #000000;
+  border-radius:3px;
+  font-size: 0.9em;
+	box-shadow:1px 2px 3px #ffffff;
 }
 
 h1,h5 {
   font-family: 'Audiowide', cursive;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 
 p {
-  /* font-family: 'Pacifico', cursive; */
   font-family: 'Courgette', cursive;
+}
+
+h3 {
+  text-align: right;
+}
+
+header {
+  display: flex;
+  margin-bottom: 3em;
+  text-align: center;
 }
 
 footer {
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin-top: 3em;
 }
-
-
 article {
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 
+.bluesheme {
+  background-color: #001741;
+  color: #ffffff;
+}
 
+.img {
+  width: auto;
+  height: 50%;
+}
+
+.imgproduct{
+  height: 20vh;
+  width: auto;
+}
+
+.fullCenter {
+	justify-content: center;
+	align-items: center;
+}
 .product {
   display: flex;
 }
 
+.prodprice {
+  height: 15vh;
+  width: 60%;
+  padding: 10px;
+  font-size: 0.9em;
+}
 
 .société {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  width: auto;
+  height: auto;
+}
+
+#name {
+
 }
 
 /* ==========================================================================
