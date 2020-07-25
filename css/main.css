@@ -121,7 +121,12 @@ textarea {
     font-size: 0.9em;
     box-shadow:1px 2px 3px #ffffff;
   }
-    
+
+  nav ul li a:hover {
+    color: #7af8dd;
+    box-shadow:1px 2px 3px #7af8dd;
+  }
+  
   h1 {
     padding-left: 1em;
   }
@@ -140,6 +145,7 @@ textarea {
   
   p {
     font-family: 'Courgette', cursive;
+    text-align: justify;
   }
   
   h3 {
@@ -162,6 +168,7 @@ textarea {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    max-width: 1000px;
   }
     
   table, th, td {
@@ -222,7 +229,9 @@ textarea {
 
   .product {
     display: flex;
-  }
+    justify-content: space-around;
+    align-items: center;
+ }
   
   .pricelist {
     width: 30%;
@@ -230,7 +239,9 @@ textarea {
   
   .prodprice {
     height: 15vh;
-    width: 60%;
+    /* width: 60%; */
+    width: auto;
+    min-width: fit-content;
     padding: 10px;
     font-size: 0.9em;
   }
@@ -240,8 +251,18 @@ textarea {
     justify-content: space-around;
     align-items: center;
   }
+
   #contact{
     max-width:500px;
+    margin:auto;
+  }
+  #abt{
+    max-width:500px;
+    margin:auto;
+    text-align: center;
+  }
+  #prd{
+    max-width:1000px;
     margin:auto;
   }
   .btn {
@@ -253,6 +274,11 @@ textarea {
     border-radius:3px;
     font-size: 0.9em;
     box-shadow:1px 2px 3px #000000;
+  }
+
+  .btn:hover {
+    color: #7af8dd;
+    box-shadow:1px 2px 3px #7af8dd;
   }
 
   /*** Extra small  ::  viewports < 576   ::  Common class  ***/
