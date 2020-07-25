@@ -185,6 +185,10 @@ textarea {
       float:left;
   }
   
+  input[type="search"] {
+    width: 100px;
+  }
+
   /*** Extra small  ::  viewports < 576   ::  Utility class ***/
   .smedia {
     display: none;
@@ -258,8 +262,9 @@ textarea {
   }
   
   #about {
-    width: 90%;
-    padding-left: 5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2vh;
   }
   
   #logo {
@@ -276,32 +281,44 @@ textarea {
 
 @media screen and (min-width: 576px){
   /******* Medium   ::  viewports < 768   ::  General rules ***/
+  h1 {
+    font-size: 2.5em;
+  }
   #cpn {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 
+  .smedia {
+    display: inline;
+  }
+
   /******* Medium   ::  viewports < 768   ::  Utility class ***/
   /******* Medium   ::  viewports < 768   ::  Common class  ***/
 }
 
-
-
-
-
 /************** Extra small  ::  viewports >= 768 *************/
 @media screen and (min-width: 768px){
   /******** Large   ::  viewports < 992   ::  General rules ***/
+  input[type="search"] {
+    width: 300px;
+  }
+  h1 {
+    font-size: 3em;
+  }
+
   /******** Large   ::  viewports < 992   ::  Utility class ***/
   /******** Large   ::  viewports < 992   ::  Common class  ***/
 }
+
 /************** Extra small  ::  viewports >= 992 *************/
 @media screen and (min-width: 992px){
   /*** Extra large  ::  viewports < 1200  ::  General rules ***/
   /*** Extra large  ::  viewports < 1200  ::  Utility class ***/
   /*** Extra large  ::  viewports < 1200  ::  Common class  ***/
 }
+
 /************** Extra small  ::  viewports < 1200px ***********/
 @media screen and (min-width: 1200px){
   /*** Extra large  ::  viewports > 1200  ::  General rules ***/

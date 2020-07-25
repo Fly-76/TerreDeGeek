@@ -11,6 +11,8 @@
   <link rel="apple-touch-icon" href="favicon.png">
   <link rel="shortcut icon" href="favicon.ico">
 
+  <script src="https://kit.fontawesome.com/a5a3281376.js" crossorigin="anonymous"></script>
+
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Courgette&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -23,12 +25,17 @@
   <!-- Display a menu with 4 links to the html pages -->
   <nav class="bluesheme">
     <ul>
-      <li><a href="index.html">ACCUEIL</a></li>
-      <li><a href="service.html">PRESTATIONS</a></li>
-      <li><a href="about.html">A-PROPOS</a></li>
-      <li><a href="contact.html">CONTACT</a></li>
+      <li><a href="index.html" aria-label="acceuil"><i class="fas fa-home"></i><span class="smedia"> ACCUEIL</span></a></li>
+      <li><a href="service.html"><i class="fas fa-tools"></i><span class="smedia"> PRESTATIONS</span></a></li>
+      <li><a href="about.html"><i class="fas fa-users"></i><span class="smedia"> A-PROPOS</span></a></li>
+      <li><a href="contact.html"><i class="fab fa-wpforms"></i><span class="smedia"> CONTACT</span></a></li>
     </ul>
-    <hr>
+    <form action="#" method="POST" class="fullCenter">
+      <input type="search" name="search" value="" placeholder="Votre recherche">
+      <button name="button" type="submit" class="btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
   </nav>
 
   <!-- Display the society's name   -->
@@ -36,7 +43,7 @@
     <div id="logo">  
       <img src="img/geek.png" alt="logo de la société Terre De Geek">
     </div>
-    <div class="fullCenter">
+    <div id="cpn">
       <h1>TERRE</h1>
       <h1>DE</h1> 
       <h1>GEEK</h1>
@@ -45,7 +52,7 @@
 
 
    <!-- Display society's description --> 
-   <main id="about">
+   <main id="contact">
     <h4>QUI SOMME NOUS?</h4>
     <video id="vid" autoplay>
       <source src="vid/franck-leuyer-001.Ogg" type="video/mp4">
@@ -70,12 +77,6 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
