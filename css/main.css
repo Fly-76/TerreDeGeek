@@ -87,7 +87,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
 /************** Extra small  ::  viewports < 576 **************/
   /*** Extra small  ::  viewports < 576   ::  General rules ***/
   * {
@@ -107,9 +106,12 @@ textarea {
     background-color: #001741;
     color: #ffffff;
     height: 50px;
+
+    display:  flex;
     align-items: center;
-  }
-  
+    justify-content: space-between;
+    }
+
   nav ul li a {
     text-decoration: none;
     color: #ffffff;
@@ -120,12 +122,16 @@ textarea {
     box-shadow:1px 2px 3px #ffffff;
   }
     
+  h1 {
+    padding-left: 1em;
+  }
+
   h1, h5 {
     font-family: 'Audiowide', cursive;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
   }
-  
+
   h4, caption {
     font-family: 'Audiowide', cursive;
     color: #001741;
@@ -142,7 +148,7 @@ textarea {
   
   header {
     display: flex;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
     text-align: center;
   }
   
@@ -157,13 +163,7 @@ textarea {
     flex-direction: column;
     padding: 20px;
   }
-  
-  form {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 2vh;
-  }
-  
+    
   table, th, td {
     border: 2px solid #001741;
     border-collapse: collapse;
@@ -186,11 +186,21 @@ textarea {
   }
   
   /*** Extra small  ::  viewports < 576   ::  Utility class ***/
+  .smedia {
+    display: none;
+  }
+
   .bluesheme {
     background-color: #001741;
     color: #ffffff;
   }
   
+  .frm {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2vh;
+  }
+
   .img {
     width: auto;
     height: 50%;
@@ -226,7 +236,10 @@ textarea {
     justify-content: space-around;
     align-items: center;
   }
-  
+  #contact{
+    max-width:500px;
+    margin:auto;
+  }
   .btn {
     text-decoration: none;
     color: #ffffff;
@@ -235,7 +248,7 @@ textarea {
     padding:6px ;
     border-radius:3px;
     font-size: 0.9em;
-    box-shadow:1px 2px 3px #ffffff;
+    box-shadow:1px 2px 3px #000000;
   }
 
   /*** Extra small  ::  viewports < 576   ::  Common class  ***/
@@ -260,11 +273,23 @@ textarea {
   }
   
 /************** Extra small  ::  viewports >= 576 *************/
+
 @media screen and (min-width: 576px){
   /******* Medium   ::  viewports < 768   ::  General rules ***/
+  #cpn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   /******* Medium   ::  viewports < 768   ::  Utility class ***/
   /******* Medium   ::  viewports < 768   ::  Common class  ***/
 }
+
+
+
+
+
 /************** Extra small  ::  viewports >= 768 *************/
 @media screen and (min-width: 768px){
   /******** Large   ::  viewports < 992   ::  General rules ***/
