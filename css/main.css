@@ -87,6 +87,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/************** Extra small  ::  viewports < 576 **************/
+  /*** Extra small  ::  viewports < 576   ::  General rules ***/
+  /*** Extra small  ::  viewports < 576   ::  Utility class ***/
+  /*** Extra small  ::  viewports < 576   ::  Common class  ***/
+
+/************** Extra small  ::  viewports >= 576 *************/
+@media screen and (min-width: 576px){
+  /******* Medium   ::  viewports < 768   ::  General rules ***/
+  /******* Medium   ::  viewports < 768   ::  Utility class ***/
+  /******* Medium   ::  viewports < 768   ::  Common class  ***/
+}
+/************** Extra small  ::  viewports >= 768 *************/
+@media screen and (min-width: 768px){
+  /******** Large   ::  viewports < 992   ::  General rules ***/
+  /******** Large   ::  viewports < 992   ::  Utility class ***/
+  /******** Large   ::  viewports < 992   ::  Common class  ***/
+}
+/************** Extra small  ::  viewports >= 992 *************/
+@media screen and (min-width: 992px){
+  /*** Extra large  ::  viewports < 1200  ::  General rules ***/
+  /*** Extra large  ::  viewports < 1200  ::  Utility class ***/
+  /*** Extra large  ::  viewports < 1200  ::  Common class  ***/
+}
+/************** Extra small  ::  viewports < 1200px ***********/
+@media screen and (min-width: 1200px){
+  /*** Extra large  ::  viewports > 1200  ::  General rules ***/
+  /*** Extra large  ::  viewports > 1200  ::  Utility class ***/
+  /*** Extra large  ::  viewports > 1200  ::  Common class  ***/
+}
+
+
 * {
   font-family: 'Arial', sans-serif;
   margin: 0;
